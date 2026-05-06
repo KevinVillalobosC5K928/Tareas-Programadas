@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Oponente
+comment0.text=\r\n\ Representa\ un\ oponente\ en\ el\ juego\ Dojo\ de\ Supervivencia.\r\n\ Cada\ oponente\ tiene\ tres\ cartas\ aleatorias\ y\ una\ intensidad\ de\ energ\u00EDa.\r\n\ @author\ Kevin\ Villalobos\r\n\ @version\ 1.0\r\n
+comment1.params=numero\ intensidad
+comment1.target=Oponente(int,\ double)
+comment1.text=\r\n\ Constructor\ del\ oponente.\ Crea\ tres\ cartas\ con\ tipos\ aleatorios.\r\n\ @param\ numero\ El\ n\u00FAmero\ del\ oponente\ (1,\ 2\ o\ 3).\r\n\ @param\ intensidad\ La\ intensidad\ del\ oponente\ (0.2,\ 0.3\ o\ 0.4).\r\n
+comment2.params=
+comment2.target=boolean\ estaDerrotado()
+comment2.text=\r\n\ Verifica\ que\ las\ cartas\ tiene\ vida\ menor\ o\ igual\ a\ 0\ si\ el\ oponente\ ha\ sido\ derrotado\ (las\ tres\ cartas\ sin\ poder).\r\n\ @return\ true\ si\ las\ tres\ cartas\ del\ oponente\ tienen\ vida\ menor\ o\ igual\ a\ 0.\r\n
+comment3.params=indice
+comment3.target=Carta\ getCarta(int)
+comment3.text=\r\n\ Obtiene\ una\ carta\ del\ oponente\ por\ \u00EDndice\:\ 1,\ 2\ o\ 3.\r\n\ @param\ indice\ El\ \u00EDndice\ de\ la\ carta\ (1,\ 2\ o\ 3).\r\n\ @return\ La\ carta\ correspondiente,\ o\ null\ si\ el\ \u00EDndice\ es\ inv\u00E1lido.\r\n
+comment4.params=
+comment4.target=int\ getNumero()
+comment4.text=\r\n\ Obtiene\ el\ n\u00FAmero\ identificador\ del\ oponente.\r\n\ @return\ El\ n\u00FAmero\ del\ oponente.\r\n
+comment5.params=
+comment5.target=double\ getIntensidad()
+comment5.text=\r\n\ Obtiene\ la\ intensidad\ actual\ del\ oponente.\r\n\ @return\ La\ intensidad\ del\ oponente.\r\n
+comment6.params=
+comment6.target=void\ reducirIntensidad()
+comment6.text=\r\n\ Reduce\ la\ intensidad\ del\ oponente\ a\ la\ mitad\ (cuando\ un\ jugador\ es\ derrotado).\r\n
+numComments=7

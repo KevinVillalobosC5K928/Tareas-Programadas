@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.target=Tipo
+comment0.text=\r\n\ Enumeraci\u00F3n\ que\ representa\ los\ tres\ tipos\ de\ cartas\ posibles\ en\ el\ juego.\r\n\ Los\ tipos\ determinan\ las\ relaciones\ de\ afectaci\u00F3n\ entre\ cartas.\r\n\ @author\ Kevin\ Villalobos\r\n\ @version\ 1.0\r\n
+numComments=1

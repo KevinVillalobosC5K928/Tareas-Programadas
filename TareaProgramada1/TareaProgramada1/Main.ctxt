@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\r\n\ Clase\ principal\ del\ juego\ Dojo\ de\ Supervivencia.\r\n\ Inicia\ el\ torneo\ y\ permite\ a\ m\u00FAltiples\ equipos\ participar.\r\n\ \r\n\ <p>Uso\:</p>\r\n\ <pre>\r\n\ \ \ java\ Main\ \ \ \ \ \ \ \ \ ->\ interfaz\ de\ consola\r\n\ \ \ java\ Main\ -consola\ ->\ interfaz\ de\ consola\r\n\ \ \ java\ Main\ -gui\ \ \ \ ->\ interfaz\ gr\u00E1fica\ con\ JOptionPane\r\n\ </pre>\r\n\r\n\ @author\ Equipo\r\n\ @version\ 1.0\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ M\u00E9todo\ principal\ de\ la\ aplicaci\u00F3n.\r\n\ @param\ args\ Argumentos\ de\ l\u00EDnea\ de\ comandos\:\ -gui\ para\ ventanas,\ -consola\ o\ ninguno\ para\ consola.\r\n
+numComments=2

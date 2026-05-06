@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Marcador
+comment0.text=\r\n\ Almacena\ el\ mejor\ marcador\ registrado\ durante\ el\ torneo\ del\ Dojo.\r\n\ Guarda\ el\ nombre\ del\ equipo,\ oponentes\ derrotados,\ jugadores\ activos\ y\ total\ de\ combos.\r\n\ @author\ Kevin\ Villalobos\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=Marcador()
+comment1.text=\r\n\ Constructor\ del\ marcador.\ Inicia\ sin\ registro.\r\n
+comment2.params=equipo\ jugActivos
+comment2.target=boolean\ esMejor(Equipo,\ int)
+comment2.text=\r\n\ Devuelve\ verdadero\ si\ el\ marcador\ es\ mejor\ que\ el\ actual.\r\n\ Criterios\ en\ orden\:\ m\u00E1s\ oponentes\ derrotados,\ m\u00E1s\ jugadores\ activos,\ menos\ combos.\r\n\ @param\ equipo\ El\ equipo\ a\ comparar.\r\n\ @param\ jugActivos\ Jugadores\ activos\ del\ equipo\ al\ finalizar.\r\n\ @return\ true\ si\ el\ equipo\ supera\ el\ marcador\ actual.\r\n
+comment3.params=equipo\ jugActivos
+comment3.target=void\ actualizar(Equipo,\ int)
+comment3.text=\r\n\ Actualiza\ el\ marcador\ con\ los\ datos\ del\ mejor\ equipo\ actual.\r\n\ @param\ equipo\ El\ equipo\ con\ el\ nuevo\ mejor\ marcador.\r\n\ @param\ jugActivos\ Los\ jugadores\ activos\ del\ equipo\ al\ finalizar.\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Genera\ una\ representaci\u00F3n\ textual\ del\ mejor\ marcador.\r\n\ @return\ El\ historial\ del\ mejor\ marcador\ como\ texto.\r\n
+comment5.params=
+comment5.target=boolean\ hayMarcador()
+comment5.text=\r\n\ Indica\ si\ existe\ un\ marcador\ registrado.\r\n\ @return\ true\ si\ hay\ al\ menos\ un\ registro.\r\n
+numComments=6

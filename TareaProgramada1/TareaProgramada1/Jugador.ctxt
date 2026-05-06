@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Jugador
+comment0.text=\r\n\ Representa\ un\ jugador\ del\ equipo\ en\ el\ juego\ Dojo\ de\ Supervivencia.\r\n\ Cada\ jugador\ tiene\ un\ nombre\ y\ tres\ cartas\ (una\ de\ cada\ tipo).\r\n\ @author\ Kevin\ Villalobos\r\n\ @version\ 1.0\r\n
+comment1.params=nombre
+comment1.target=Jugador(java.lang.String)
+comment1.text=\r\n\ Constructor\ del\ jugador.\ Crea\ las\ tres\ cartas\ (AIRE,\ TIERRA,\ AGUA)\ y\ las\ asigna.\r\n\ @param\ nombre\ El\ nombre\ del\ jugador.\r\n
+comment2.params=
+comment2.target=boolean\ estaActivo()
+comment2.text=\r\n\ Devuelve\ verdadero\ si\ tiene\ al\ menos\ una\ carta\ con\ poder.\r\n\ @return\ true\ si\ el\ jugador\ tiene\ al\ menos\ una\ carta\ con\ poder.\r\n
+comment3.params=indice
+comment3.target=Carta\ getCarta(int)
+comment3.text=\r\n\ Devuelve\ la\ carta\ por\ el\ \u00EDndice.\r\n\ @param\ indice\ El\ \u00EDndice\ de\ la\ carta\ (1,\ 2\ o\ 3).\r\n\ @return\ La\ carta\ correspondiente,\ o\ null\ si\ el\ \u00EDndice\ es\ inv\u00E1lido.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getNombre()
+comment4.text=\r\n\ Obtiene\ el\ nombre\ del\ jugador.\r\n\ @return\ El\ nombre\ del\ jugador.\r\n
+comment5.params=
+comment5.target=Carta\ getCartaAire()
+comment5.text=\r\n\ Obtiene\ la\ carta\ de\ tipo\ AIRE\ del\ jugador.\r\n\ @return\ La\ carta\ AIRE.\r\n
+comment6.params=
+comment6.target=Carta\ getCartaTierra()
+comment6.text=\r\n\ Obtiene\ la\ carta\ de\ tipo\ TIERRA\ del\ jugador.\r\n\ @return\ La\ carta\ TIERRA.\r\n
+comment7.params=
+comment7.target=Carta\ getCartaAgua()
+comment7.text=\r\n\ Obtiene\ la\ carta\ de\ tipo\ AGUA\ del\ jugador.\r\n\ @return\ La\ carta\ AGUA.\r\n
+numComments=8

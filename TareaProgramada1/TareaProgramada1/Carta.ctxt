@@ -1,0 +1,34 @@
+#BlueJ class context
+comment0.target=Carta
+comment0.text=\r\n\ Representa\ una\ carta\ de\ poder\ en\ el\ juego\ Dojo\ de\ Supervivencia.\r\n\ Cada\ carta\ tiene\ un\ tipo,\ vida,\ poder\ de\ ataque\ y\ poder\ de\ defensa.\r\n\ @author\ Kevin\ Villalobos\r\n\ @version\ 1.0\r\n
+comment1.params=tipo\ jugador
+comment1.target=Carta(Tipo,\ Jugador)
+comment1.text=\r\n\ Constructor\ de\ la\ carta.\ Inicializa\ vida\ en\ 1.0,\ ataque\ aleatorio\ [0.6,1.0]\r\n\ y\ defensa\ aleatoria\ [0.1,0.5].\r\n\ @param\ tipo\ El\ tipo\ de\ la\ carta.\r\n\ @param\ jugador\ El\ jugador\ propietario.\r\n
+comment10.params=jugador
+comment10.target=void\ setJugador(Jugador)
+comment10.text=\r\n\ Establece\ el\ jugador\ propietario\ de\ esta\ carta.\r\n\ @param\ jugador\ El\ jugador\ propietario.\r\n
+comment2.params=objetivo
+comment2.target=boolean\ afectaA(Carta)
+comment2.text=\r\n\ Devuelve\ verdadero\ si\ la\ carta\ afecta\ al\ objetivo\ seg\u00FAn\ su\ tipo.\r\n\ AIRE\ afecta\ TIERRA,\ TIERRA\ afecta\ AGUA,\ AGUA\ afecta\ AIRE.\ Iguales\ se\ afectan\ mutuamente.\r\n\ @param\ objetivo\ La\ carta\ objetivo.\r\n\ @return\ true\ si\ esta\ carta\ afecta\ a\ la\ carta\ objetivo.\r\n
+comment3.params=objetivo
+comment3.target=void\ atacar(Carta)
+comment3.text=\r\n\ Aplica\ la\ operacion\ para\ restar\ vida.\r\n\ La\ vida\ de\ la\ afectada\ se\ reduce\:\ vida\ -\=\ vida\ *\ (ataque_atacante\ -\ defensa_afectada).\r\n\ @param\ objetivo\ La\ carta\ que\ recibe\ el\ da\u00F1o.\r\n
+comment4.params=
+comment4.target=boolean\ tienePoder()
+comment4.text=\r\n\ Devuelve\ verdadero\ si\ la\ vida\ es\ mayor\ a\ 0.\r\n\ @return\ true\ si\ la\ carta\ tiene\ vida\ mayor\ a\ cero.\r\n
+comment5.params=
+comment5.target=Tipo\ getTipo()
+comment5.text=\r\n\ Obtiene\ el\ tipo\ de\ la\ carta.\r\n\ @return\ El\ tipo\ de\ la\ carta.\r\n
+comment6.params=
+comment6.target=double\ getVida()
+comment6.text=\r\n\ Obtiene\ la\ vida\ actual\ de\ la\ carta.\r\n\ @return\ La\ vida\ de\ la\ carta.\r\n
+comment7.params=
+comment7.target=double\ getAtaque()
+comment7.text=\r\n\ Obtiene\ el\ poder\ de\ ataque\ de\ la\ carta.\r\n\ @return\ El\ poder\ de\ ataque.\r\n
+comment8.params=
+comment8.target=double\ getDefensa()
+comment8.text=\r\n\ Obtiene\ el\ poder\ de\ defensa\ de\ la\ carta.\r\n\ @return\ El\ poder\ de\ defensa.\r\n
+comment9.params=
+comment9.target=Jugador\ getJugador()
+comment9.text=\r\n\ Obtiene\ el\ jugador\ propietario\ de\ la\ carta.\r\n\ @return\ El\ jugador\ propietario.\r\n
+numComments=11

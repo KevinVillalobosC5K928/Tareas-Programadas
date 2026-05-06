@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=InterfazGUI
+comment0.text=\r\n\ Implementaci\u00F3n\ de\ InterfazJuego\ usando\ ventanas\ JOptionPane\ (GUI\ de\ texto).\r\n\ Muestra\ mensajes\ y\ recoge\ entradas\ mediante\ di\u00E1logos\ gr\u00E1ficos.\r\n\ @author\ Kevin\ Villalobos\r\n\ @version\ 1.0\r\n
+comment1.params=mensaje
+comment1.target=void\ mostrarMensaje(java.lang.String)
+comment1.text=\r\n\ {@inheritDoc}\r\n
+comment2.params=prompt
+comment2.target=java.lang.String\ leerTexto(java.lang.String)
+comment2.text=\r\n\ {@inheritDoc}\r\n
+comment3.params=prompt\ min\ max
+comment3.target=int\ leerEntero(java.lang.String,\ int,\ int)
+comment3.text=\r\n\ {@inheritDoc}\r\n
+comment4.params=
+comment4.target=int\ mostrarMenuPrincipal()
+comment4.text=\r\n\ {@inheritDoc}\r\n
+numComments=5

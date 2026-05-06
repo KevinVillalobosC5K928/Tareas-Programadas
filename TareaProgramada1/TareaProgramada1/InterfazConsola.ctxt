@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=InterfazConsola
+comment0.text=\r\n\ Implementaci\u00F3n\ de\ InterfazJuego\ usando\ la\ consola\ est\u00E1ndar.\r\n\ Lee\ la\ entrada\ del\ usuario\ desde\ System.in\ y\ muestra\ salida\ en\ System.out.\r\n\ @author\ Kevin\ Villalobos\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=InterfazConsola()
+comment1.text=\r\n\ Constructor\ que\ inicializa\ el\ Scanner\ sobre\ System.in.\r\n
+comment2.params=mensaje
+comment2.target=void\ mostrarMensaje(java.lang.String)
+comment2.text=\r\n\ {@inheritDoc}\r\n
+comment3.params=prompt
+comment3.target=java.lang.String\ leerTexto(java.lang.String)
+comment3.text=\r\n\ {@inheritDoc}\r\n
+comment4.params=prompt\ min\ max
+comment4.target=int\ leerEntero(java.lang.String,\ int,\ int)
+comment4.text=\r\n\ {@inheritDoc}\r\n
+comment5.params=
+comment5.target=int\ mostrarMenuPrincipal()
+comment5.text=\r\n\ {@inheritDoc}\r\n
+numComments=6
