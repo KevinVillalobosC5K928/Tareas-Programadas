@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\r\n\ Clase\ principal\ del\ programa.\ Coordina\ la\ percepci\u00F3n\ de\ la\ imagen,\r\n\ la\ resoluci\u00F3n\ del\ puzzle\ y\ la\ visualizaci\u00F3n\ de\ la\ soluci\u00F3n\ paso\ a\ paso.\r\n\r\n\ <p>Uso\ desde\ consola\:</p>\r\n\ <pre>\r\n\ \ \ java\ -cp\ .\:Imagen.jar\ Main\ imagen.gif\r\n\ </pre>\r\n\r\n\ @author\ Kevin\ Villalobos\ Alfaro\ -\ C5K928\r\n\ @version\ 1.0\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Punto\ de\ entrada\ del\ programa.\r\n\ Lee\ la\ imagen\ indicada\ por\ argumento,\ procesa\ la\ percepci\u00F3n,\r\n\ ejecuta\ el\ Solucionar\ BFS\ y\ muestra\ el\ resultado\ en\ consola.\r\n\r\n\ @param\ args\ argumentos\ de\ consola\:\ args[0]\ \=\ nombre\ del\ archivo\ de\ imagen\r\n
+numComments=2

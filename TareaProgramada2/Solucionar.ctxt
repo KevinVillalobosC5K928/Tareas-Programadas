@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Solucionar
+comment0.text=\r\n\ Implementa\ el\ algoritmo\ BFS\ (B\u00FAsqueda\ en\ Anchura)\ para\ encontrar\r\n\ la\ secuencia\ de\ movimientos\ m\u00EDnima\ que\ resuelve\ el\ puzzle.\r\n\ Si\ el\ puzzle\ no\ tiene\ soluci\u00F3n,\ lo\ indica\ de\ forma\ textual.\r\n\r\n\ @author\ Kevin\ Villalobos\ Alfaro\ -\ C5K928\r\n\ @version\ 1.0\r\n
+comment1.params=inicial
+comment1.target=java.util.ArrayList\ resolver(Estado)
+comment1.text=\r\n\ Ejecuta\ BFS\ desde\ el\ estado\ inicial\ y\ retorna\ la\ lista\ ordenada\r\n\ de\ estados\ desde\ el\ inicio\ hasta\ la\ soluci\u00F3n.\r\n\ Retorna\ null\ si\ no\ existe\ soluci\u00F3n.\r\n\r\n\ @param\ inicial\ estado\ inicial\ del\ puzzle\r\n\ @return\ lista\ de\ estados\ que\ forman\ el\ camino\ de\ soluci\u00F3n,\ o\ null\r\n
+comment2.params=final_
+comment2.target=java.util.ArrayList\ reconstruirCamino(Estado)
+comment2.text=\r\n\ Reconstruye\ el\ camino\ de\ soluci\u00F3n\ siguiendo\ los\ punteros\ padre\r\n\ desde\ el\ estado\ final\ hasta\ el\ estado\ inicial.\r\n\r\n\ @param\ final_\ estado\ soluci\u00F3n\ desde\ el\ cual\ se\ reconstruye\ el\ camino\r\n\ @return\ lista\ de\ estados\ en\ orden\ desde\ el\ inicio\ hasta\ la\ soluci\u00F3n\r\n
+numComments=3

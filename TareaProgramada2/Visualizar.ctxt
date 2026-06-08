@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Visualizar
+comment0.text=\r\n\ Se\ encarga\ de\ toda\ la\ salida\ en\ consola\ del\ programa.\r\n\ Imprime\ la\ matriz\ simb\u00F3lica\ de\ cada\ estado,\ la\ instrucci\u00F3n\ del\ movimiento\r\n\ realizado\ y\ la\ leyenda\ de\ tipos\ de\ piezas\ con\ sus\ colores.\r\n\r\n\ @author\ Kevin\ Villalobos\ Alfaro\ -\ C5K928\r\n\ @version\ 1.0\r\n
+comment1.params=camino\ leyenda
+comment1.target=void\ mostrarSolucion(java.util.ArrayList,\ Pieza[])
+comment1.text=\r\n\ Imprime\ en\ consola\ todo\ el\ proceso\ de\ soluci\u00F3n\ paso\ a\ paso,\r\n\ mostrando\ la\ matriz\ del\ estado\ y\ el\ movimiento\ realizado\ en\ cada\ paso.\r\n\r\n\ @param\ camino\ \ \ lista\ ordenada\ de\ estados\ desde\ inicio\ hasta\ soluci\u00F3n\r\n\ @param\ leyenda\ \ arreglo\ de\ Pieza\ con\ la\ informaci\u00F3n\ de\ cada\ tipo\r\n
+comment2.params=
+comment2.target=void\ mostrarSinSolucion()
+comment2.text=\r\n\ Imprime\ un\ mensaje\ indicando\ que\ el\ puzzle\ no\ tiene\ soluci\u00F3n.\r\n
+comment3.params=recipientes
+comment3.target=void\ imprimirMatriz(Recipiente[])
+comment3.text=\r\n\ Imprime\ la\ matriz\ simb\u00F3lica\ de\ un\ arreglo\ de\ recipientes.\r\n\ Las\ filas\ representan\ niveles\ de\ arriba\ hacia\ abajo,\r\n\ las\ columnas\ representan\ recipientes.\r\n\r\n\ @param\ recipientes\ arreglo\ de\ recipientes\ a\ imprimir\r\n
+comment4.params=leyenda
+comment4.target=void\ mostrarLeyenda(Pieza[])
+comment4.text=\r\n\ Imprime\ la\ leyenda\ de\ tipos\ de\ piezas\ con\ su\ color\ y\ forma\ asociados.\r\n\r\n\ @param\ leyenda\ arreglo\ de\ Pieza\ donde\ el\ \u00EDndice+1\ es\ el\ tipo\ simb\u00F3lico\r\n
+numComments=5
