@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=PlanoEmocionesPanel
+comment1.params=resultado
+comment1.target=PlanoEmocionesPanel(Resultado)
+comment1.text=\r\n\ Construye\ el\ panel\ con\ un\ resultado\ dado.\r\n\ @param\ resultado\ resultado\ a\ mostrar\r\n
+comment2.params=g
+comment2.target=void\ paintComponent(java.awt.Graphics)
+comment2.text=\r\n\ Dibuja\ el\ plano\ de\ emociones\ y\ el\ punto\ de\ la\ frase.\r\n\ @param\ g\ objeto\ gr\u00E1fico\ suministrado\ por\ Swing\r\n
+comment3.params=emocion\ similitud
+comment3.target=java.lang.String\ obtenerDescripcion(java.lang.String,\ double)
+comment3.text=\r\n\ Genera\ una\ descripci\u00F3n\ textual\ de\ cercan\u00EDa\ seg\u00FAn\ el\ valor\ de\ similitud.\r\n\ @param\ emocion\ nombre\ de\ la\ emoci\u00F3n\r\n\ @param\ similitud\ valor\ de\ similitud\ entre\ 0\ y\ 1\r\n\ @return\ descripci\u00F3n\ con\ barra\ visual\ y\ etiqueta\r\n
+numComments=4

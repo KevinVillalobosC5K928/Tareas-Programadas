@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=NodoContexto
+comment0.text=\r\n\ Tarea\ programada\ 3\r\n\ @author\ Kevin\ Villalobos\r\n\ Nodo\ del\ \u00E1rbol\ principal\ de\ contextos.\r\n\ Cada\ nodo\ almacena\ una\ palabra\ del\ corpus\ y\ un\ \u00E1rbol\ de\ vecinos\ con\ frecuencias.\r\n
+comment1.params=palabra
+comment1.target=NodoContexto(java.lang.String)
+comment1.text=\r\n\ Construye\ un\ nodo\ de\ contexto\ para\ una\ palabra\ dada.\r\n\ @param\ palabra\ palabra\ principal\ del\ contexto\r\n
+comment2.params=
+comment2.target=java.lang.String\ getPalabra()
+comment2.text=@return\ la\ palabra\ principal
+comment3.params=
+comment3.target=ArbolFrecuencias\ getVecinos()
+comment3.text=@return\ el\ \u00E1rbol\ de\ vecinos
+comment4.params=
+comment4.target=NodoContexto\ getIzquierdo()
+comment4.text=@return\ hijo\ izquierdo
+comment5.params=
+comment5.target=NodoContexto\ getDerecho()
+comment5.text=@return\ hijo\ derecho
+comment6.params=izquierdo
+comment6.target=void\ setIzquierdo(NodoContexto)
+comment6.text=@param\ izquierdo\ nuevo\ hijo\ izquierdo
+comment7.params=derecho
+comment7.target=void\ setDerecho(NodoContexto)
+comment7.text=@param\ derecho\ nuevo\ hijo\ derecho
+numComments=8

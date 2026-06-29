@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=ModeloEmocion
+comment1.params=nombre
+comment1.target=ModeloEmocion(java.lang.String)
+comment1.text=\r\n\ Construye\ un\ modelo\ vac\u00EDo\ con\ un\ nombre\ dado.\r\n\ @param\ nombre\ nombre\ del\ modelo\r\n
+comment2.params=palabrasBase\ arbolPrincipal
+comment2.target=void\ construirModelo(java.util.List,\ ArbolContextos)
+comment2.text=\r\n\ Construye\ el\ modelo\ a\ partir\ de\ una\ lista\ de\ palabras\ base.\r\n\ Para\ cada\ palabra\ se\ busca\ su\ contexto\ y\ se\ acumula\ en\ el\ \u00E1rbol\ de\ frecuencias.\r\n\ @param\ palabrasBase\ palabras\ del\ archivo\ o\ frase\r\n\ @param\ arbolPrincipal\ \u00E1rbol\ global\ de\ contextos\r\n
+comment3.params=
+comment3.target=java.lang.String\ getNombre()
+comment3.text=@return\ nombre\ del\ modelo
+comment4.params=
+comment4.target=ArbolFrecuencias\ getFrecuencias()
+comment4.text=@return\ \u00E1rbol\ de\ frecuencias\ del\ modelo
+numComments=5

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=AnalizadorEmociones
+comment1.params=
+comment1.target=AnalizadorEmociones()
+comment1.text=\r\n\ Construye\ el\ analizador\ vac\u00EDo.\r\n
+comment2.params=archivoFeliz\ archivoTriste\ archivoCalma\ archivoEnojo
+comment2.target=void\ inicializar(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Carga\ los\ archivos\ de\ emociones,\ construye\ el\ corpus\ global\ y\ luego\ crea\ los\ modelos.\r\n\ @param\ archivoFeliz\ ruta\ del\ archivo\ de\ alegr\u00EDa\r\n\ @param\ archivoTriste\ ruta\ del\ archivo\ de\ tristeza\r\n\ @param\ archivoCalma\ ruta\ del\ archivo\ de\ calma\r\n\ @param\ archivoEnojo\ ruta\ del\ archivo\ de\ enojo\r\n\ @throws\ IOException\ si\ falla\ la\ lectura\ de\ archivos\r\n
+comment3.params=frase
+comment3.target=Resultado\ analizarFrase(java.lang.String)
+comment3.text=\r\n\ Analiza\ una\ frase\ del\ usuario\ y\ devuelve\ sus\ similitudes\ y\ coordenadas\ del\ plano.\r\n\ @param\ frase\ frase\ digitada\ por\ el\ usuario\r\n\ @return\ resultado\ del\ an\u00E1lisis\r\n
+numComments=4

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Procesador
+comment0.text=\r\n\ \ *\ Tarea\ programada\ 3\r\n\ @author\ Kevin\ Villalobos\r\n\ Clase\ utilitaria\ para\ leer\ archivos\ de\ texto\ y\ normalizar\ palabras.\r\n\ Convierte\ a\ min\u00FAsculas,\ elimina\ tildes,\ descarta\ caracteres\ no\ alfab\u00E9ticos\r\n\ y\ filtra\ palabras\ vac\u00EDas\ del\ espa\u00F1ol\ (stopwords).\r\n
+comment1.params=ruta
+comment1.target=java.lang.String\ leerArchivo(java.lang.String)
+comment1.text=\r\n\ Lee\ el\ contenido\ completo\ de\ un\ archivo\ de\ texto.\r\n\ @param\ ruta\ ruta\ del\ archivo\r\n\ @return\ contenido\ del\ archivo\ como\ String\r\n\ @throws\ IOException\ si\ ocurre\ un\ error\ de\ lectura\r\n
+comment2.params=texto
+comment2.target=java.util.List\ tokenizar(java.lang.String)
+comment2.text=\r\n\ Convierte\ un\ texto\ en\ una\ lista\ de\ palabras\ limpias\ sin\ stopwords.\r\n\ @param\ texto\ texto\ original\r\n\ @return\ lista\ de\ tokens\ v\u00E1lidos\r\n
+comment3.params=palabra
+comment3.target=boolean\ esStopword(java.lang.String)
+comment3.text=\r\n\ Verifica\ si\ una\ palabra\ es\ una\ stopword.\r\n\ @param\ palabra\ palabra\ a\ verificar\r\n\ @return\ true\ si\ es\ stopword,\ false\ si\ no\r\n
+numComments=4

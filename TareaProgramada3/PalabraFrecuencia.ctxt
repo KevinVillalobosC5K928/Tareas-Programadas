@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=PalabraFrecuencia
+comment0.text=\r\n\ Tarea\ programada\ 3\r\n\ @author\ Kevin\ Villalobos\r\n\ Representa\ un\ par\ palabra-frecuencia.\r\n\ Sirve\ como\ estructura\ auxiliar\ para\ recorrer\ \u00E1rboles\ y\ calcular\ similitudes.\r\n
+comment1.params=palabra\ frecuencia
+comment1.target=PalabraFrecuencia(java.lang.String,\ int)
+comment1.text=\r\n\ Construye\ un\ nuevo\ par\ palabra-frecuencia.\r\n\ @param\ palabra\ palabra\ a\ almacenar\r\n\ @param\ frecuencia\ frecuencia\ asociada\r\n
+comment2.params=
+comment2.target=java.lang.String\ getPalabra()
+comment2.text=@return\ la\ palabra\ almacenada
+comment3.params=
+comment3.target=int\ getFrecuencia()
+comment3.text=@return\ la\ frecuencia\ asociada
+numComments=4

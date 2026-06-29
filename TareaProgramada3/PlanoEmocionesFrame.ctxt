@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=PlanoEmocionesFrame
+comment1.params=resultado
+comment1.target=PlanoEmocionesFrame(Resultado)
+comment1.text=\r\n\ Construye\ la\ ventana\ del\ plano.\r\n\ @param\ resultado\ resultado\ a\ dibujar\r\n
+numComments=2

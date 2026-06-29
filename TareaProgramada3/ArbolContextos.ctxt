@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=ArbolContextos
+comment1.params=
+comment1.target=ArbolContextos()
+comment1.text=\r\n\ Construye\ un\ \u00E1rbol\ de\ contextos\ vac\u00EDo.\r\n
+comment2.params=palabra
+comment2.target=NodoContexto\ insertarPalabra(java.lang.String)
+comment2.text=\r\n\ Inserta\ una\ palabra\ principal\ si\ no\ existe\ y\ devuelve\ su\ nodo.\r\n\ @param\ palabra\ palabra\ principal\r\n\ @return\ nodo\ correspondiente\ a\ la\ palabra\r\n
+comment3.params=actual\ palabra
+comment3.target=NodoContexto\ insertarRec(NodoContexto,\ java.lang.String)
+comment3.text=\r\n\ Inserta\ recursivamente\ una\ palabra\ principal.\r\n\ @param\ actual\ nodo\ actual\r\n\ @param\ palabra\ palabra\ a\ insertar\r\n\ @return\ referencia\ del\ sub\u00E1rbol\r\n
+comment4.params=palabra
+comment4.target=NodoContexto\ buscar(java.lang.String)
+comment4.text=\r\n\ Busca\ una\ palabra\ principal\ dentro\ del\ \u00E1rbol.\r\n\ @param\ palabra\ palabra\ a\ buscar\r\n\ @return\ nodo\ encontrado\ o\ null\r\n
+comment5.params=actual\ palabra
+comment5.target=NodoContexto\ buscarRec(NodoContexto,\ java.lang.String)
+comment5.text=\r\n\ Busca\ recursivamente\ una\ palabra\ principal.\r\n\ @param\ actual\ nodo\ actual\r\n\ @param\ palabra\ palabra\ a\ buscar\r\n\ @return\ nodo\ encontrado\ o\ null\r\n
+comment6.params=palabra\ vecino
+comment6.target=void\ agregarVecino(java.lang.String,\ java.lang.String)
+comment6.text=\r\n\ Agrega\ una\ relaci\u00F3n\ entre\ una\ palabra\ principal\ y\ una\ palabra\ vecina.\r\n\ @param\ palabra\ palabra\ principal\r\n\ @param\ vecino\ palabra\ vecina\r\n
+comment7.params=tokens\ k
+comment7.target=void\ construirDesdeTokens(java.util.List,\ int)
+comment7.text=\r\n\ Construye\ el\ \u00E1rbol\ de\ contextos\ a\ partir\ de\ una\ lista\ de\ tokens.\r\n\ Para\ cada\ palabra\ toma\ una\ ventana\ de\ vecinos\ de\ tama\u00F1o\ k\ a\ izquierda\ y\ derecha.\r\n\ @param\ tokens\ lista\ de\ palabras\ limpias\ del\ corpus\r\n\ @param\ k\ tama\u00F1o\ de\ la\ ventana\r\n
+comment8.params=palabra
+comment8.target=ArbolFrecuencias\ obtenerContexto(java.lang.String)
+comment8.text=\r\n\ Obtiene\ el\ \u00E1rbol\ de\ vecinos\ de\ una\ palabra\ dada.\r\n\ @param\ palabra\ palabra\ principal\r\n\ @return\ \u00E1rbol\ de\ vecinos\ o\ null\ si\ la\ palabra\ no\ existe\r\n
+numComments=9

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Calcular
+comment0.text=\r\n\ Tarea\ programada\ 3\r\n\ @author\ Kevin\ Villalobos\r\n\ Clase\ utilitaria\ para\ calcular\ similitud\ de\ coseno\ entre\ dos\ modelos.\r\n
+comment1.params=a\ b
+comment1.target=double\ similitudCoseno(ArbolFrecuencias,\ ArbolFrecuencias)
+comment1.text=\r\n\ Calcula\ la\ similitud\ de\ coseno\ entre\ dos\ \u00E1rboles\ de\ frecuencias.\r\n\ @param\ a\ primer\ modelo\r\n\ @param\ b\ segundo\ modelo\r\n\ @return\ valor\ de\ similitud\ entre\ 0\ y\ 1\r\n
+numComments=2
